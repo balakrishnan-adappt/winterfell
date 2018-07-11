@@ -48,7 +48,6 @@ public class Bulkmail_import {
 			System.out.println("adduser button is clicked");
 			String parentWindowHandler = driver.getWindowHandle(); 
 			String subWindowHandler = null;
-
 			Set<String> handles = driver.getWindowHandles(); 
 			Iterator<String> iterator = handles.iterator();
 			while (iterator.hasNext()){
@@ -59,14 +58,17 @@ public class Bulkmail_import {
 			username.sendKeys(RandomStringUtils.randomAlphabetic(8));
 			WebElement email=driver.findElement(By.xpath("//input[@id='emailAddress']"));
 			email.sendKeys("usename"+rad.nextInt(100)+"@yopmail.com");
-			Thread.sleep(5000);
+			Thread.sleep(2000);
 			WebElement ok_button=driver.findElement(By.xpath("//button[@class='btn btn-primary']"));
 			ok_button.click();
-			System.out.println("new user has been created");
-			Thread.sleep(5000);
+			Thread.sleep(2000);
 			driver.switchTo().window(parentWindowHandler); 
 		}
 		
+		WebElement save_button=driver.findElement(By.xpath("//button[contains(text(),'Save')]"));
+		save_button.click();
+		Thread.sleep(3000);
+		System.out.println("Users created");
 	}
 	
 	@BeforeTest
