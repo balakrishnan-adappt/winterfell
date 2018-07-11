@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="jonsnow.Winter_is_Coming">
+      <class name="jonsnow.Bulkmail_import">
         <methods>
-          <include name="main"/>
+          <include name="setup"/>
+          <include name="bulk_upload"/>
+          <include name="close"/>
         </methods>
-      </class> <!-- jonsnow.Winter_is_Coming -->
+      </class> <!-- jonsnow.Bulkmail_import -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
