@@ -45,7 +45,6 @@ public class Bulkmail_import {
 			List<WebElement> adduser=driver.findElements(By.xpath("//span[@class='glyphicon glyphicon-plus-sign']"));
 			adduser.get(0).click();
 			Thread.sleep(3000);
-			System.out.println("adduser button is clicked");
 			String parentWindowHandler = driver.getWindowHandle(); 
 			String subWindowHandler = null;
 			Set<String> handles = driver.getWindowHandles(); 
@@ -62,7 +61,8 @@ public class Bulkmail_import {
 			WebElement ok_button=driver.findElement(By.xpath("//button[@class='btn btn-primary']"));
 			ok_button.click();
 			Thread.sleep(2000);
-			driver.switchTo().window(parentWindowHandler); 
+			driver.switchTo().window(parentWindowHandler);
+			System.out.println("added new user");
 		}
 		
 		WebElement save_button=driver.findElement(By.xpath("//button[contains(text(),'Save')]"));
