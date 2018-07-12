@@ -55,9 +55,9 @@ public class Bulkmail_import {
 			}
 			driver.switchTo().window(subWindowHandler); 
 			WebElement username=driver.findElement(By.xpath("//input[@id='name']"));
-			username.sendKeys(RandomStringUtils.randomAlphabetic(8));
+			username.sendKeys(RandomStringUtils.randomAlphabetic(10));
 			WebElement email=driver.findElement(By.xpath("//input[@id='emailAddress']"));
-			email.sendKeys("usename"+rad.nextInt(100)+"@yopmail.com");
+			email.sendKeys("username"+rad.nextInt(1000)+"@yopmail.com");
 			Thread.sleep(2000);
 			WebElement ok_button=driver.findElement(By.xpath("//button[@class='btn btn-primary']"));
 			ok_button.click();

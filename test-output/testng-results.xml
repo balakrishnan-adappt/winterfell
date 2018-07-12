@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="127198" started-at="2018-07-11T13:21:15Z" finished-at="2018-07-11T13:23:22Z">
+  <suite name="Default suite" duration-ms="128985" started-at="2018-07-12T06:18:26Z" finished-at="2018-07-12T06:20:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="127198" started-at="2018-07-11T13:21:15Z" finished-at="2018-07-11T13:23:22Z">
+    <test name="Default test" duration-ms="128985" started-at="2018-07-12T06:18:26Z" finished-at="2018-07-12T06:20:35Z">
       <class name="jonsnow.Bulkmail_import">
-        <test-method status="PASS" signature="setup()[pri:0, instance:jonsnow.Bulkmail_import@167fdd33]" name="setup" is-config="true" duration-ms="34284" started-at="2018-07-11T13:21:15Z" finished-at="2018-07-11T13:21:49Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:jonsnow.Bulkmail_import@167fdd33]" name="setup" is-config="true" duration-ms="68700" started-at="2018-07-12T06:18:26Z" finished-at="2018-07-12T06:19:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="bulk_upload()[pri:0, instance:jonsnow.Bulkmail_import@167fdd33]" name="bulk_upload" duration-ms="89149" started-at="2018-07-11T13:21:49Z" finished-at="2018-07-11T13:23:18Z">
+        <test-method status="PASS" signature="bulk_upload()[pri:0, instance:jonsnow.Bulkmail_import@167fdd33]" name="bulk_upload" duration-ms="56534" started-at="2018-07-12T06:19:35Z" finished-at="2018-07-12T06:20:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bulk_upload -->
-        <test-method status="PASS" signature="close()[pri:0, instance:jonsnow.Bulkmail_import@167fdd33]" name="close" is-config="true" duration-ms="3736" started-at="2018-07-11T13:23:18Z" finished-at="2018-07-11T13:23:22Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:jonsnow.Bulkmail_import@167fdd33]" name="close" is-config="true" duration-ms="3723" started-at="2018-07-12T06:20:32Z" finished-at="2018-07-12T06:20:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
