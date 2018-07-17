@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="jonsnow.Bulkmail_import">
+      <class name="jonsnow.Android_mobile">
         <methods>
-          <include name="setup"/>
-          <include name="bulk_upload"/>
-          <include name="close"/>
+          <include name="main"/>
         </methods>
-      </class> <!-- jonsnow.Bulkmail_import -->
+      </class> <!-- jonsnow.Android_mobile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
